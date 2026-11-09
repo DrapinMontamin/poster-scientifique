@@ -1,0 +1,57 @@
+body {
+    background-image: url(image/fond.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    text-align: center;
+    background-color: rgb(107, 107, 107);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(61, 61, 61);
+}
+section {
+    background-color: rgba(128, 128, 128, 0.8);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(61, 61, 61, 0.5);
+}
+div {
+    display: flex;
+    padding: 5px;
+}
+p {
+    text-indent: 40px;
+    margin: 16px;
+    flex: 1;
+    text-align: justify;
+}
+img, video {
+    flex: 1;
+    border-radius: 5px;
+    width: 100%;
+    border: 2px solid rgb(61, 61, 61);
+}
+a {
+    text-decoration: none;
+    color: rgb(129, 0, 0);
+    transition: transform 0.2s ease;
+}
+.image {
+    flex: 1;
+    color: black;
+}
+.image:hover {
+    transform: scale(1.05);
+    position: relative;
+    z-index: 1000;
+    background-color: transparent;
+    color: black;
+}
+a:hover {
+    background-color: rgb(129, 0, 0);
+    padding: 1px;
+    color: white;
+    border-radius: 5px;
+}
