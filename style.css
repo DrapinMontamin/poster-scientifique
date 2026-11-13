@@ -10,8 +10,14 @@ header {
     border-radius: 5px;
     border: 2px solid rgb(61, 61, 61);
 }
+nav {
+    background-color: rgba(128, 128, 128, 0.9);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(61, 61, 61, 0.5);
+}
 section {
-    background-color: rgba(128, 128, 128, 0.8);
     padding: 5px;
     margin: 10px;
     border-radius: 5px;
@@ -21,13 +27,15 @@ div {
     display: flex;
     padding: 5px;
 }
+h3 {
+    text-align: center;
+}
 p {
     text-indent: 40px;
     margin: 16px;
-    flex: 1;
     text-align: justify;
 }
-img, video {
+img, video, iframe {
     flex: 1;
     border-radius: 5px;
     width: 100%;
@@ -37,6 +45,9 @@ a {
     text-decoration: none;
     color: rgb(129, 0, 0);
     transition: transform 0.2s ease;
+}
+content {
+    flex: 1;
 }
 .image {
     flex: 1;
@@ -54,4 +65,21 @@ a:hover {
     padding: 1px;
     color: white;
     border-radius: 5px;
+}
+footer {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+}
+.footer {
+    flex: 1;
+    display: block;
+}
+.lienfooter {
+    margin: 16px !important;
+    color: white !important;
+}
+.lienfooter:hover {
+    color: rgb(61, 61, 61) !important;
+    background: white !important;
 }
